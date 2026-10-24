@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "pvpmenu",
+  "version": "${version}",
+  "name": "PvP Menu",
+  "description": "Zaawansowane menu ustawień dla graczy PvP (ciemny układ kafelkowy).",
+  "authors": ["Autor"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["pl.pvpmenu.PvpMenuMod"] },
+  "mixins": ["pvpmenu.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
